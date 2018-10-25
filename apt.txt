@@ -1,7 +1,7 @@
 libcairo2-dev
 libjpeg-turbo8-dev
 libjpeg-devel
-libpng12-dev
+libpng-dev
 libossp-uuid-dev
 ffmpeg
 libpango1.0-dev
@@ -11,7 +11,7 @@ libpulse-dev
 libssl-dev
 autotools-dev
 autoconf
-tomcat6
+tomcat7
 build-essential
 automake
 libtool
@@ -20,4 +20,4 @@ checkinstall
 git
 libcairo-dev
 libfreerdp-dev
-libvncserver0
+libvncserver-dev 
