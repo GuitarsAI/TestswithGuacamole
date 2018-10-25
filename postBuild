@@ -1,4 +1,10 @@
-wget http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/0.9.14/source/guacamole-client-0.9.14.tar.gz
+wget http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/0.9.14/source/guacamole-server-0.9.14.tar.gz
 tar -xzf guacamole-server-0.9.14.tar.gz
 cd ./guacamole-server-0.9.14/
 autoreconf -fi
+./configure --with-init-dir=/etc/init.d
+make
+make install
+http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/0.9.14/source/guacamole-client-0.9.14.tar.gz
+tar -xzf guacamole-client-0.9.14.tar.gz
+
