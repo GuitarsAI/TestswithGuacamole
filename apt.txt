@@ -1,0 +1,11 @@
+libcairo2-dev
+libjpeg-turbo8-dev
+libjpeg-devel
+libpng12-dev
+libossp-uuid-dev
+ffmpeg
+libpango1.0-dev
+libssh2-1-dev
+libvncserver-dev
+libpulse-dev
+libssl-dev
