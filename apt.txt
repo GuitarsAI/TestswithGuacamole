@@ -20,4 +20,5 @@ checkinstall
 git
 libcairo-dev
 libfreerdp-dev
-libvncserver-dev 
+libvncserver-dev
+gcc-6
