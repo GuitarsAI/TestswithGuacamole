@@ -5,6 +5,7 @@ autoreconf -fi
 ./configure --with-init-dir=/etc/init.d
 make
 make install
+ldconfig
 http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/0.9.14/source/guacamole-client-0.9.14.tar.gz
 tar -xzf guacamole-client-0.9.14.tar.gz
 
