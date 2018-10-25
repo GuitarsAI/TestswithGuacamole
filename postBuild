@@ -1,11 +1,14 @@
-#wget http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/0.9.14/source/guacamole-server-0.9.14.tar.gz
+tar -xzf guacamole-client-0.9.14.tar.gz
 tar -xzf guacamole-server-0.9.14.tar.gz
+mkdir -p /etc/guacamole/lib
+mkdir -p /etc/guacamole/extensions
 cd ./guacamole-server-0.9.14
 autoreconf -fi
+CC="gcc-6"
 ./configure --with-init-dir=/etc/init.d
 make
 make install
 ldconfig
-#http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/0.9.14/source/guacamole-client-0.9.14.tar.gz
-tar -xzf guacamole-client-0.9.14.tar.gz
+
+
 
