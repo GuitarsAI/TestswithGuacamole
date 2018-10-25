@@ -1,6 +1,7 @@
+update
 libcairo2-dev
 libjpeg-turbo8-dev
-libjpeg-devel
+libjpeg-dev
 libpng-dev
 libossp-uuid-dev
 ffmpeg
