@@ -11,3 +11,13 @@ libpulse-dev
 libssl-dev
 autotools-dev
 autoconf
+tomcat6
+build-essential
+automake
+libtool
+shtool
+checkinstall
+git
+libcairo-dev
+libfreerdp-dev
+libvncserver0
